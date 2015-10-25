@@ -17,10 +17,11 @@ require.config({
         "pat-utils":                    "bower_components/patternslib/src/core/utils",
         "tocify":                       "bower_components/jquery.tocify.js/src/javascripts/jquery.tocify",
         "underscore":                   "bower_components/underscore/underscore"
-
     },
     "shim": {
-        "logging": { "exports": "logging" }
+        "logging": { "exports": "logging" },
+        // tell Require.js that jquery.tocify.js depends on the jQueryUI Widget
+        "tocify": ["jquery-ui/widget"]
     }
 });
 
