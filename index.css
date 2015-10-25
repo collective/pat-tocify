@@ -1,4 +1,8 @@
-body > h1{
+#wrapper{
+    overflow: auto;
+}
+
+h1{
     margin-left: 20px;
 }
 
@@ -12,5 +16,4 @@ body > h1{
 #content{
     float: left;
     margin-left: 340px;
-    margin-bottom: 500px;
 }
