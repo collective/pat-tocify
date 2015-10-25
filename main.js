@@ -5,6 +5,7 @@ require.config({
         // them to bower.json
         "jquery":                       "bower_components/jquery/dist/jquery",
         "jquery.browser":               "bower_components/jquery.browser/dist/jquery.browser",
+        "jquery-ui":                    "bower_components/jquery-ui/ui",
         "logging":                      "bower_components/logging/src/logging",
         "pat-base":                     "bower_components/patternslib/src/core/base",
         "pat-compat":                   "bower_components/patternslib/src/core/compat",
@@ -14,6 +15,7 @@ require.config({
         "pat-parser":                   "bower_components/patternslib/src/core/parser",
         "pat-registry":                 "bower_components/patternslib/src/core/registry",
         "pat-utils":                    "bower_components/patternslib/src/core/utils",
+        "tocify":                       "bower_components/jquery.tocify.js/src/javascripts/jquery.tocify",
         "underscore":                   "bower_components/underscore/underscore"
 
     },

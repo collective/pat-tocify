@@ -1,6 +1,15 @@
 {
   "name": "pat-tocify",
   "version": "0.0.1",
+  "description": "A pattern that renders a table of contents",
+  "author": {
+      "name": "Coen van der Kamp",
+      "email": "cvanderkamp@gmail.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:collective/pat-tocify.git"
+  },
   "keywords": [
     "patternslib",
     "pattern"
