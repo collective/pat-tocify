@@ -1,0 +1,16 @@
+body > h1{
+    margin-left: 20px;
+}
+
+#toc{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 90%;
+}
+
+#content{
+    float: left;
+    margin-left: 340px;
+    margin-bottom: 500px;
+}

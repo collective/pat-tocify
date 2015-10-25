@@ -4,15 +4,25 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>pat-tocify demo</title>
     <script data-main="main" src="src/bower_components/requirejs/require.js"></script>
-    <!--<link rel="stylesheet" type="text/css" href="src/bower_components/jquery.tocify.js/src/stylesheets/jquery.tocify.css" />-->
+    <link rel="stylesheet" type="text/css" href="src/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="src/bower_components/jquery-ui/themes/base/all.css"/>
+    <link rel="stylesheet" type="text/css" href="src/bower_components/jquery.tocify.js/src/stylesheets/jquery.tocify.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body role="document">
 
     <h1>pat-tocify demo</h1>
 
-    <div class="pat-tocify"
-         data-pat-tocify='{ "selectors" : "h2,h3", "extendPage" : false, "scrollTo" : 0, "theme" : "none" }'></div>
-    <div>
+    <div id="toc"
+         class="pat-tocify"
+         data-pat-tocify='{"selectors"  : "h2,h3",
+                           "extendPage" : false,
+                           "scrollTo"   : 0,
+                           "theme"      : "jqueryui",
+                           "hideEffect" : "slideUp"}'></div>
+
+    <div id="content">
+
       <h2>Tocify Test Content</h2>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum,
