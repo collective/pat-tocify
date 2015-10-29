@@ -19,6 +19,10 @@
   "devDependencies": {
     "bower": "latest",
     "requirejs": "",
-    "http-server": ""
+    "http-server": "",
+    "phantom-jasmine": "0.1.8",
+    "phantomjs": "latest",
+    "jasmine" : "latest",
+    "jshint": "~0.9.1"
   }
 }
