@@ -135,7 +135,14 @@
              * If the user provided any values via the data-pat-tocify
              * attribute, those values will already be set.
              */
-            this.$el.tocify(this.options);
+            var toc;
+            toc = this.$el.tocify(this.options).data("toc-tocify");
+            // Normally jquery.tocify.js calls `setActiveElement` on window load.
+            // But we use RequireJS and pat-tocify is loaded after the window
+            // load event is fired. Therefore we call `setActiveElement` here.
+            // Now visiting a hash url will scroll to the appropriate anchor
+            // and the `highlightDefault` option is respected.
+            toc._setActiveElement(true);
             log.debug("pat-tocify initialized");
         }
     });
