@@ -7,12 +7,12 @@ Development
 
 Make sure, you have `GNU make`, `node` and `git` installed.
 
-Then::
+Then:
 
     $ git clone https://github.com/collective/pat-tocify.git
     $ cd pat-tocify
 
-Start clean::
+Start clean:
 
     make clean
     make install
@@ -26,4 +26,6 @@ Or you can run:
 
     $ make serve
 
-And access the tests by pointing chrome to: http://localhost:4001/tests/TestRunner.html
+Visit the demonstration of the pattern by going to: http://localhost:4001/index.html
+
+Or access the tests by pointing chrome to: http://localhost:4001/tests/TestRunner.html
